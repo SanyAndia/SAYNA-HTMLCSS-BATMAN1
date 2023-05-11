@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #eddebf;
+    background-image: url("../Assets/Illustrations/Bathome1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header>nav>ul{
+    margin-top: 50px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header>nav>ul>li{
+    text-decoration: none;
+    font-weight: 800;
+    font-family: "Rajdhani""Rajdhani";
+}
+.intro{
+    margin-top: 100px;
+}
+.texte{
+    margin-left: 100px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Rajdhani";
+}
+.button{
+    margin-top: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button>button{
+    padding: 10px 20px;
+    background: linear-gradient(#eddebf,#ffff);
+    border: none;
+    border-radius: 3px;
+}
